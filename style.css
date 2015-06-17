@@ -1,0 +1,37 @@
+# { padding:0px; margin:0px;}
+body { background:#fefefe; color:aqua;}
+
+.sprite { display:inline-block; width:50px; height:50px;}
+.spriteHover:hover { background:none; cursor:pointer;}
+
+/*from the bottom right! horizontal by vertical*/
+
+.sprite1 { background:url("Sprite_50px-5x5.png") 250px 250px;}
+.sprite2 { background:url("Sprite_50px-5x5.png") 200px 250px;}
+.sprite3 { background:url("Sprite_50px-5x5.png") 150px 250px;}
+.sprite4 { background:url("Sprite_50px-5x5.png") 100px 250px;}
+.sprite5 { background:url("Sprite_50px-5x5.png") 50px 250px;}
+
+.sprite6 { background:url("Sprite_50px-5x5.png") 250px 200px;}
+.sprite7 { background:url("Sprite_50px-5x5.png") 200px 200px;}
+.sprite8 { background:url("Sprite_50px-5x5.png") 150px 200px;}
+.sprite9 { background:url("Sprite_50px-5x5.png") 100px 200px;}
+.sprite10 { background:url("Sprite_50px-5x5.png") 50px 200px;}
+
+.sprite11 { background:url("Sprite_50px-5x5.png") 250px 150px;}
+.sprite12 { background:url("Sprite_50px-5x5.png") 200px 150px;}
+.sprite13 { background:url("Sprite_50px-5x5.png") 150px 150px;}
+.sprite14 { background:url("Sprite_50px-5x5.png") 100px 150px;}
+.sprite15 { background:url("Sprite_50px-5x5.png") 50px 150px;}
+
+.sprite16 { background:url("Sprite_50px-5x5.png") 250px 100px;}
+.sprite17 { background:url("Sprite_50px-5x5.png") 200px 100px;}
+.sprite18 { background:url("Sprite_50px-5x5.png") 150px 100px;}
+.sprite19 { background:url("Sprite_50px-5x5.png") 100px 100px;}
+.sprite20 { background:url("Sprite_50px-5x5.png") 50px 100px;}
+
+.sprite21 { background:url("Sprite_50px-5x5.png") 250px 50px;}
+.sprite22 { background:url("Sprite_50px-5x5.png") 200px 50px;}
+.sprite23 { background:url("Sprite_50px-5x5.png") 150px 50px;}
+.sprite24 { background:url("Sprite_50px-5x5.png") 100px 50px;}
+.sprite25 { background:url("Sprite_50px-5x5.png") 50px 50px;}
