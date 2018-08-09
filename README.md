@@ -4,4 +4,4 @@ Using a uniform sprite grid (in this case 5x5 100px by 100px) use SASS to dynami
 
 *index.html displays results + original sprite for reference
 *css.scss imports sprite.scss
-*sprite.scss dynamically builds sprite classes
+*sprite.scss dynamically builds sprite classes ...working across all the columns in each row
