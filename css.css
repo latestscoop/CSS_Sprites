@@ -1,0 +1,79 @@
+.sprite {
+  width: 100px;
+  height: 100px;
+  float: left; }
+
+.sprite1 {
+  background: url("sprite-grid-500x500.png") no-repeat 0px 0px; }
+
+.sprite2 {
+  background: url("sprite-grid-500x500.png") no-repeat -100px 0px; }
+
+.sprite3 {
+  background: url("sprite-grid-500x500.png") no-repeat -200px 0px; }
+
+.sprite4 {
+  background: url("sprite-grid-500x500.png") no-repeat -300px 0px; }
+
+.sprite5 {
+  background: url("sprite-grid-500x500.png") no-repeat -400px 0px; }
+
+.sprite6 {
+  background: url("sprite-grid-500x500.png") no-repeat 0px -100px; }
+
+.sprite7 {
+  background: url("sprite-grid-500x500.png") no-repeat -100px -100px; }
+
+.sprite8 {
+  background: url("sprite-grid-500x500.png") no-repeat -200px -100px; }
+
+.sprite9 {
+  background: url("sprite-grid-500x500.png") no-repeat -300px -100px; }
+
+.sprite10 {
+  background: url("sprite-grid-500x500.png") no-repeat -400px -100px; }
+
+.sprite11 {
+  background: url("sprite-grid-500x500.png") no-repeat 0px -200px; }
+
+.sprite12 {
+  background: url("sprite-grid-500x500.png") no-repeat -100px -200px; }
+
+.sprite13 {
+  background: url("sprite-grid-500x500.png") no-repeat -200px -200px; }
+
+.sprite14 {
+  background: url("sprite-grid-500x500.png") no-repeat -300px -200px; }
+
+.sprite15 {
+  background: url("sprite-grid-500x500.png") no-repeat -400px -200px; }
+
+.sprite16 {
+  background: url("sprite-grid-500x500.png") no-repeat 0px -300px; }
+
+.sprite17 {
+  background: url("sprite-grid-500x500.png") no-repeat -100px -300px; }
+
+.sprite18 {
+  background: url("sprite-grid-500x500.png") no-repeat -200px -300px; }
+
+.sprite19 {
+  background: url("sprite-grid-500x500.png") no-repeat -300px -300px; }
+
+.sprite20 {
+  background: url("sprite-grid-500x500.png") no-repeat -400px -300px; }
+
+.sprite21 {
+  background: url("sprite-grid-500x500.png") no-repeat 0px -400px; }
+
+.sprite22 {
+  background: url("sprite-grid-500x500.png") no-repeat -100px -400px; }
+
+.sprite23 {
+  background: url("sprite-grid-500x500.png") no-repeat -200px -400px; }
+
+.sprite24 {
+  background: url("sprite-grid-500x500.png") no-repeat -300px -400px; }
+
+.sprite25 {
+  background: url("sprite-grid-500x500.png") no-repeat -400px -400px; }

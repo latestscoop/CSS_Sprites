@@ -1,0 +1,25 @@
+$grid-width:500px; //width of sprite
+$grid-height:500px; //height of sprite
+$cell-count-rows:5; //number of sprites per row
+$cell-count-cols:5; //number of sprites per column
+$cell-width: $grid-width / $cell-count-rows; //calculate sprite width
+$cell-height: $grid-height / $cell-count-cols; //calculate sprite height
+$total-cells: $cell-count-rows * $cell-count-cols; //calculate total sprites
+$sprite:'sprite-grid-500x500.png';
+
+.sprite { width: $cell-width; height: $cell-height; float:left;}
+@mixin spriteX {
+	$this-row: 0; //counter for each row in the sprite
+	$this-col: 0; //counter for each column in the sprite
+	@for $i from 1 through $total-cells{
+		@if $this-col == ($cell-count-cols) { //if end column
+			$this-col: 0; //start again
+			$this-row: $this-row + 1; //start new row
+		}@else{
+			//do nothing
+		}
+		.sprite#{$i} { background:url($sprite) no-repeat (($this-col * $cell-width) * -1) (($this-row * $cell-height) * -1);} //dynamically build sprite classes
+		$this-col: $this-col + 1; //add new column
+	}
+}
+@include spriteX; //build it
